@@ -1,6 +1,6 @@
 {
   "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
-  "client_id": "https://example.org/client_id.jsonld",
+  "client_id": "https://raw.githubusercontent.com/renyuneyun/test/main/client_id.jsonld",
   "redirect_uris": [ "http://localhost:5173/" ],
   "client_name": "My Sample App",
   "client_uri": "http://localhost:5173/",
