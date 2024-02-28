@@ -1,0 +1,18 @@
+{
+  "@context": "https://www.w3.org/ns/solid/oidc-context.jsonld",
+  "client_id": "https://example.org/client_id.jsonld",
+  "redirect_uris": [ "http://localhost:5173/" ],
+  "client_name": "My Sample App",
+  "client_uri": "http://localhost:5173/",
+  "logo_uri": "https://my-app.example.com/logo.png",
+  "tos_uri": "https://my-app.example.com/terms.html",
+  "policy_uri": "https://my-app.example.com/policy.html",
+  "contacts": [
+    "someone@example.com"
+  ],
+  "scope": "openid offline_access webid",
+  "grant_types": [
+    "refresh_token",
+    "authorization_code"
+  ]
+}
